@@ -1,0 +1,15 @@
+dist-newstyle
+result
+result-*
+.attr-cache
+ghcid-output.txt
+taskell.md
+working-agreementobsidiansystems.pem
+pact-log
+/deploy*
+/.ghc*
+/*/dist
+ui-styling/node_modules
+*.dmg
+*.tix
+*.chainweaver

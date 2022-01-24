@@ -1,0 +1,11 @@
+chainweaver-macos:
+  tags:
+    - macos
+  script:
+    - nix-build -A mac
+
+chainweaver-linux:
+  tags:
+    - linux
+  script:
+    - nix-build -A exe
