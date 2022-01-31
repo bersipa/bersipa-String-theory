@@ -1,6 +1,6 @@
-# Chainweaver 
+# bersiapstring
 
-Kadena Chainweaver desktop wallet and web-based playground for the [Pact](https://pact-language.readthedocs.io/en/latest/) language, including support for deployments to backends (blockchains, test servers).
+bersipa string Chainweaver desktop wallet and web-based playground for the [Pact](https://pact-language.readthedocs.io/en/latest/) language, including support for deployments to backends (blockchains, test servers).
 
 # Hacking
 
@@ -24,7 +24,7 @@ A linux webkitgtk version of chainweaver can be built and run in a number of dif
 
 The OVA includes an upgrade script inside the VM that allows the user to upgrade the nixos configuration without redownloading the whole OVA.
 
-This is powered by the http://nixcache.kadena.io binary cache and a file in s3 that contains the latest nixos system store path. See https://chainweaver-builds.s3.amazonaws.com/vm/master-store-path
+This is powered by the http://bersipa.io/foundation binary cache and a file in s3 that contains the latest nixos system store path. See https://chainweaver-builds.s3.amazonaws.com/vm/master-store-path
 
 To release a new version, be sure that CI is pushing to that binary cache, and when the build passes QA overwrite the contents of master-store-path with the output of `nix-build -A chainweaverVMSystem default.nix` by running `scripts/update-vm-master-store`. This requires permission to write to the chainweaver-builds bucket and to have credentials in ~/.aws/credentials already.
 
