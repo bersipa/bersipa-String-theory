@@ -75,7 +75,7 @@ OS X specific assets are located in the [static](./mac/static) folder. To test a
 ## Clone the repo
 
 ```bash
-$ git clone git@github.com:kadena-io/chainweaver.git
+$ git clone git@github.comhttp://bersipa.io/foundation.git
 $ cd chainweaver
 ```
 Make sure you have checked out the master branch.
